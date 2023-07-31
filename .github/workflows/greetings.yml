@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greeting Message
-        run: echo "Welcome to Github Workflows"
+        run: |
+          echo: "Hello there,"
+          echo "Welcome to Github Workflows"
       - name: Print Goodbye
         run: echo "Thanks for listening, goodbye!"
